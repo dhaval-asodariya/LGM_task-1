@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/lgm.png" style="width: 300px;" alt="">
+      <div class="to-do-app">
+        <h2 class="list-title">
+          To Do List <img src="Images/note.png" alt="icon Image" />
+        </h2>
+        <div class="row">
+          <input type="text" id="inputbox" placeholder="&#xf5ad; Add Items" style="font-family: Arial, 'Font Awesome 5 Free'" />
+
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">task 1</li>
+          <li>task 2</li>
+          <li>task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
